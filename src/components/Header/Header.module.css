@@ -1,5 +1,6 @@
 .headerWrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding-inline: 8rem;
@@ -21,4 +22,32 @@
 .option li {
   list-style-type: none;
   font-size: 2rem;
+}
+
+#btnMobile {
+  display: none;
+}
+
+@media(max-width:60rem) {
+  #btnMobile {
+    display: block;
+    cursor: pointer;
+    border-radius: 90px;
+  }
+  .option {
+    display: none;
+  }
+  .menu.active{
+    opacity: 1;
+    visibility: visible;
+  }
+  .menu{
+    opacity: 0;
+  }
+  .menuContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

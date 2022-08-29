@@ -1,9 +1,11 @@
 .wrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding-inline: 17rem;
   padding-bottom: 9rem;
+  
 }
 
 .card {
@@ -11,6 +13,7 @@
   width: 30rem;
   background-color: #fff;
   border-radius: 1.5rem;
+  margin-block: 2rem;
 
 
   padding-inline: 2rem;

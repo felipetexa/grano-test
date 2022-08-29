@@ -1,7 +1,6 @@
 .wrapper {
   display: block;
   padding-left: 17rem;
-  padding-bottom: 4rem;
 }
 
 .wrapper h1 {
@@ -10,8 +9,11 @@
 
 .categoryButtons {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   padding-top: 1rem;
+  padding-left: 17rem;
+  padding-bottom: 4rem;
 }
 
 .categoryButtons Button {
