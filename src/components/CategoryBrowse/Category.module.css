@@ -1,0 +1,19 @@
+.wrapper {
+  display: block;
+  padding-left: 17rem;
+  padding-bottom: 4rem;
+}
+
+.wrapper h1 {
+  font-size: 2rem;
+}
+
+.categoryButtons {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.categoryButtons Button {
+  padding-inline: 2.5rem
+}

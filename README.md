@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Project developed as a technical testing for a position at Grano Studio Agency.
+
+This webapp is based on Next.js library, consuming WordPress's API for listing blog posts.stagens.
 
 ## Getting Started
 

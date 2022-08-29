@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 17rem;
+  padding-bottom: 9rem;
+}
+
+.card {
+  height: 36rem;
+  width: 30rem;
+  background-color: #fff;
+  border-radius: 1.5rem;
+
+
+  padding-inline: 2rem;
+  padding-block: 2rem;
+}
+
+.card h3 {
+  font-size: 1.9rem;
+}
+
+.card h6 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.card p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 0;
+}

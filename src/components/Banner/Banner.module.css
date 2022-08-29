@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-block: 10rem;
+  margin-inline: 12rem;
+}
+
+.wrapper .imageGroup {
+  padding-top: 4rem;
+}
+
+.headlines h1 {
+  font-size: 6rem;
+  color: #2B2C34;
+}
+
+.headlines h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #9A9494;
+  border-left: 0.3rem solid #000;
+  padding-left: 1rem;
+}
+
+.mailForm {
+  display: flex;
+  gap: 2rem
+}
+
+.mailForm input {
+  width: 45rem;
+  height: 6rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.mailForm input::placeholder {
+  opacity: 0.5;
+  padding: 1.5rem
+}
+
+.mailForm Button {
+  height: 6rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
